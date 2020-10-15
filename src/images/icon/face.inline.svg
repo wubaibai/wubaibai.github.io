@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="496.603" height="469.817" viewBox="0 0 496.603 469.817">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke-linecap:round;stroke:#f2eeec;stroke-width:16px}.cls-4{fill:#004b62}
+        </style>
+    </defs>
+    <g id="Face" transform="translate(-536.239 -114.468)">
+        <g id="Group_2" transform="translate(777.915 130.284)">
+            <path id="Line_1" d="M0 56.227L9.201 0" class="cls-1" transform="rotate(-40 55.833 20.322)"/>
+            <path id="Line_2" d="M0 64.405L50.093 0" class="cls-1" transform="rotate(-40 54.036 -10.833)"/>
+            <path id="Line_3" d="M0 25.558L56.227 0" class="cls-1" transform="rotate(-40 126.8 -64.354)"/>
+        </g>
+        <g id="Group_3" transform="translate(648.176 199.619)">
+            <circle id="Ellipse_1" cx="192.5" cy="192.5" r="192.5" fill="#f2eeec" transform="translate(-.334 -.334)"/>
+            <circle id="Ellipse_2" cx="118.5" cy="118.5" r="118.5" fill="#fff" transform="translate(73.666 97.666)"/>
+            <g id="Group_1" transform="translate(134.224 180.057)">
+                <circle id="Ellipse_3" cx="9.5" cy="9.5" r="9.5" class="cls-4" transform="translate(98.442 -.39)"/>
+                <ellipse id="Ellipse_4" cx="9" cy="9.5" class="cls-4" rx="9" ry="9.5" transform="translate(.442 -.39)"/>
+            </g>
+            <path id="Path_1" fill="none" stroke="#004b62" stroke-linecap="round" stroke-width="10px" d="M866 589.168s18.131 24.016 51.979 24.016 48.109-24.016 48.109-24.016" transform="translate(-723.679 -330.37)"/>
+        </g>
+        <path id="Line_4" fill="none" stroke="#f2eeec" stroke-linecap="round" stroke-width="60px" d="M142.408 85.118L0 0" transform="translate(577.381 430.828)"/>
+    </g>
+</svg>

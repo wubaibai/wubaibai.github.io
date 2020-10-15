@@ -1,0 +1,8 @@
+.hero {
+	color: var(--lightBlue);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+	font-weight: 500;
+	line-height: 1.2;
+	margin-top: 120px;
+}

@@ -1,12 +1,13 @@
 import React from 'react';
 
+import Logo from 'components/atoms/Logo';
 import Navigation from 'components/molecules/Navigation';
 
 import styles from './index.css';
 
 const Header: React.FC = () => (
 	<header className={styles.header}>
-		<h2>This is header</h2>
+		<Logo />
 		<Navigation />
 	</header>
 );

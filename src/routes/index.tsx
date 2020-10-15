@@ -2,9 +2,6 @@ import React from 'react';
 
 import { CustomRoute } from 'util/hook/useRouter';
 
-import MembersRoute from './Members';
-import BlogsRoute from './Blogs';
-
 const routes: CustomRoute = {
 	path: '/',
 	components: () => [],
@@ -28,8 +25,6 @@ const routes: CustomRoute = {
 				return children;
 			},
 		},
-		MembersRoute,
-		BlogsRoute,
 	],
 };
 

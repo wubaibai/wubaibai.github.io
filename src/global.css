@@ -1,3 +1,9 @@
 /*
  * This is for global css usage.
  */
+* {
+    &:focus {
+        border: none;
+        outline: none;
+    }
+}

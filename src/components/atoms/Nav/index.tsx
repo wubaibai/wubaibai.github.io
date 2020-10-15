@@ -3,6 +3,8 @@ import React, { MouseEvent } from 'react';
 import { useHistory } from 'models/routing';
 import { History } from 'history';
 
+import style from './index.css';
+
 const onClickHandler = (callback: (e: MouseEvent<HTMLAnchorElement>) => void, history: History) => {
 	return (e: MouseEvent<HTMLAnchorElement>): void => {
 		e.preventDefault();
@@ -12,18 +14,17 @@ const onClickHandler = (callback: (e: MouseEvent<HTMLAnchorElement>) => void, hi
 };
 
 interface LinkProperty {
-	className?: string;
 	to?: string;
 	onClick?: (e: MouseEvent<HTMLAnchorElement>) => void;
 	children: React.ReactChildren | string;
 }
 
-const Link: React.FC<LinkProperty> = ({ className, to, onClick = () => {}, children }) => {
+const Link: React.FC<LinkProperty> = ({ to, onClick = () => {}, children }) => {
 	const history = useHistory();
 
 	return (
 		<a
-			className={className}
+			className={style.nav}
 			href={to}
 			role="button"
 			tabIndex={0}
