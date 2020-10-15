@@ -1,0 +1,6 @@
+## Lib
+node_modules/*
+
+## Testing
+coverage/*
+.jest-test-results.json
