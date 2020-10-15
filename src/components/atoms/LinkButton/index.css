@@ -1,0 +1,13 @@
+.button {
+	background: var(--acent);
+	border: none;
+	color: white;
+	padding: 8px 20px;
+    font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1;
+	border-radius: 100px;
+	display: inline-block;
+	text-decoration: none;
+}
