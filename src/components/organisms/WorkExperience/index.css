@@ -1,0 +1,52 @@
+.section {
+    background-color: var(--blackBlue);
+}
+
+.workExperience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: -60px;
+}
+
+.header {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    & .title {
+        color: var(--lightBlue);
+    }
+
+    & > * {
+        margin-right: 20px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.workBlock {
+    margin-bottom: 60px;
+
+    & .subTitle {
+        color: var(--acent);
+    }
+
+    & .projectCards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+
+        & > * {
+            min-width: 360px;
+            width: 31%;
+            margin-bottom: 90px;
+        }
+    }
+}

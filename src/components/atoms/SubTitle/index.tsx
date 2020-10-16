@@ -4,11 +4,11 @@ import classNames from 'classnames';
 import style from './index.css';
 
 interface SubTitleProperty {
-	color?: string;
+	className?: string;
 }
 
-const SubTitle: React.FC<SubTitleProperty> = ({ children, color }) => (
-	<div className={classNames(style.subtitle, color)}>{children}</div>
+const SubTitle: React.FC<SubTitleProperty> = ({ children, className }) => (
+	<div className={classNames(style.subtitle, className)}>{children}</div>
 );
 
 export default SubTitle;
