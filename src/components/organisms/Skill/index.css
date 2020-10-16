@@ -25,6 +25,15 @@
     flex: 2;
     font-family: var(--fontNarrow);
 
+    & .introTitle {
+        display: flex;
+        align-items: center;
+
+        & .title {
+            margin-right: 20px;
+        }
+    }
+
     & ul {
         list-style-type: none;
         padding-left: 22px;

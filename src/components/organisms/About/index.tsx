@@ -15,7 +15,7 @@ const About: React.FC = () => (
 	<Section>
 		<div className={style.about}>
 			<div className={style.aside}>
-				<Title color={style.title}>ABOUT ME</Title>
+				<Title className={style.title}>ABOUT ME</Title>
 				<div className={style.information}>
 					<div className={style.contact}>
 						Nantou, Taiwan.

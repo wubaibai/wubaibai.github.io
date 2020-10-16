@@ -4,11 +4,11 @@ import classNames from 'classnames';
 import style from './index.css';
 
 interface TitleProperty {
-	color?: string;
+	className?: string;
 }
 
-const Title: React.FC<TitleProperty> = ({ children, color }) => (
-	<div className={classNames(style.title, color)}>{children}</div>
+const Title: React.FC<TitleProperty> = ({ children, className }) => (
+	<div className={classNames(style.title, className)}>{children}</div>
 );
 
 export default Title;

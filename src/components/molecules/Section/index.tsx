@@ -4,11 +4,11 @@ import classNames from 'classnames';
 import style from './index.css';
 
 interface SectionProperty {
-	bgColor?: string;
+	className?: string;
 }
 
-const Section: React.FC<SectionProperty> = ({ children, bgColor }) => (
-	<section className={classNames(style.section, bgColor)}>
+const Section: React.FC<SectionProperty> = ({ children, className }) => (
+	<section className={classNames(style.section, className)}>
 		<div>{children}</div>
 	</section>
 );

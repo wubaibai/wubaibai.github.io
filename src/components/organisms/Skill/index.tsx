@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Section from 'components/molecules/Section';
+import Dots from 'components/molecules/Dots';
 import Title from 'components/atoms/Title';
 import SubTitle from 'components/atoms/SubTitle';
 import Tags from 'components/molecules/Tags';
@@ -36,7 +37,7 @@ const experience = [
 ];
 
 const Skill: React.FC = () => (
-	<Section bgColor={style.section}>
+	<Section className={style.section}>
 		<div className={style.skill}>
 			<div className={style.tech}>
 				<div className={style.techBlock}>
@@ -50,7 +51,10 @@ const Skill: React.FC = () => (
 			</div>
 			<div className={style.gap} />
 			<div className={style.intro}>
-				<Title color={style.title}>SKILL</Title>
+				<div className={style.introTitle}>
+					<Title className={style.title}>SKILL</Title>
+					<Dots count={2} />
+				</div>
 				<ul>
 					<li>Web development</li>
 					<li>Cross-functional Team Leadership</li>

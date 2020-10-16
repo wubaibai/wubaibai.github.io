@@ -8,7 +8,7 @@ import FaceIcon from 'images/icon/face.inline.svg';
 import style from './index.css';
 
 const Hello: React.FC = () => (
-	<Section bgColor={style.hello}>
+	<Section className={style.hello}>
 		<Header />
 		<Hero />
 		<div className={style.face}>
