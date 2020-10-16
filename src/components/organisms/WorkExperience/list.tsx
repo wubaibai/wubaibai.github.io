@@ -13,19 +13,20 @@ export const surveycakeProjects = [
 	{
 		cover: coverSurveycakeLogicEngine,
 		title: '填答頁面 & Logic Engine',
-		description: '',
+		description:
+			'將原先問卷填答頁面的答題邏輯抽獨立出來，建置 login-engine npm 套件供其他專案引入。',
 		tags: ['redux', 'front-end', 'TDD'],
 	},
 	{
 		cover: coverSurveycakeWebsite,
 		title: 'SurveyCake 官方網站',
-		description: '',
+		description: '設計與開發現有 SurveyCake 官方網站，串接導購流程，供使用者訂閱服務。',
 		tags: ['pug', 'front-end', 'design'],
 	},
 	{
 		cover: coverSurveycakeAdmin,
 		title: 'SurveyCake 問卷管理後台',
-		description: '',
+		description: '從 0 開始打造第一版的 SureyCake 問卷後台，包含訂閱金流、資料分析、圖表呈現。',
 		tags: ['pug', 'front-end', 'design'],
 	},
 ];
