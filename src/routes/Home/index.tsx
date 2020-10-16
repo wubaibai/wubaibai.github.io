@@ -4,6 +4,7 @@ import { hot } from 'react-hot-loader/root';
 import Section from 'components/molecules/Section';
 import Hello from 'components/organisms/Hello';
 import About from 'components/organisms/About';
+import Skill from 'components/organisms/Skill';
 
 // import styles from './index.css';
 
@@ -11,7 +12,7 @@ const Home: React.FC = () => (
 	<div>
 		<Hello />
 		<About />
-		<Section>SKILL</Section>
+		<Skill />
 		<Section>SIDE-PROJECT</Section>
 		<Section>WORK EXPERIENCE</Section>
 	</div>

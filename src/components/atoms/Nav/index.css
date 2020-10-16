@@ -1,5 +1,5 @@
 .nav {
-	font-family: 'Montserrat', sans-serif;
+	font-family: var(--fontPrimary);
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.2;

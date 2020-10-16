@@ -7,7 +7,7 @@ const Hello: React.FC = () => (
 		<div id="hi" className={style.hi}>
 			嗨！我是凱西，
 		</div>
-		<div className={style.position}>A Front-end Developer</div>
+		<div>A Front-end Developer</div>
 	</div>
 );
 

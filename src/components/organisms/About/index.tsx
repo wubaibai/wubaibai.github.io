@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 
 import Title from 'components/atoms/Title';
@@ -23,13 +24,22 @@ const About: React.FC = () => (
 					</div>
 					<div className={style['icon-links']}>
 						<Icon>
-							<GithubIcon />
+							<a href="https://github.com/wubaibai" target="_blank">
+								<GithubIcon />
+							</a>
 						</Icon>
 						<Icon>
-							<YoutubeIcon />
+							<a href="https://www.youtube.com/user/a304126" target="_blank">
+								<YoutubeIcon />
+							</a>
 						</Icon>
 						<Icon>
-							<MediumIcon />
+							<a
+								href="https://medium.com/%E5%8B%87%E6%95%A2%E7%88%B8%E5%AA%BD%E9%A4%8A%E6%88%90%E8%A8%98"
+								target="_blank"
+							>
+								<MediumIcon />
+							</a>
 						</Icon>
 					</div>
 				</div>
@@ -40,7 +50,9 @@ const About: React.FC = () => (
 					的經驗，對前端頁面的細節更加細心，在擔任前端工程師時找到自己的工作熱忱，工作之餘也喜歡寫程式解決自己生活上的問題。
 				</p>
 				<p>稱不上天才型的開發者，但是一個樂於嘗試的開發者，更多的工作經歷請見履歷。</p>
-				<LinkButton to="https://www.cakeresume.com/s--PEAJcvEih2Yr2uNKvL6Trg--/nevertotheend">查看履歷</LinkButton>
+				<LinkButton to="https://www.cakeresume.com/s--PEAJcvEih2Yr2uNKvL6Trg--/nevertotheend">
+					查看履歷
+				</LinkButton>
 			</div>
 		</div>
 	</Section>

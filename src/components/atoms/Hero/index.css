@@ -1,6 +1,6 @@
 .hero {
 	color: var(--lightBlue);
-	font-family: 'Montserrat', sans-serif;
+	font-family: var(--fontPrimary);
 	font-size: 48px;
 	font-weight: 500;
 	line-height: 1.2;

@@ -1,0 +1,44 @@
+.section {
+    background-color: var(--acent);
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    color: white;
+}
+
+.gap {
+    width: 40px;
+}
+
+.tech {
+    flex: 3;
+
+    & .techBlock:first-child {
+        margin-bottom: 60px;
+    }
+}
+
+.intro {
+    flex: 2;
+    font-family: var(--fontNarrow);
+
+    & ul {
+        list-style-type: none;
+        padding-left: 22px;
+    }
+
+    & li {
+        font-size: 20px;
+        line-height: 1.5;
+
+        &::before {
+            content: '#';
+            width: 20px;
+            margin-right: 10px;
+            margin-left: -22px;
+        }
+    }
+}
