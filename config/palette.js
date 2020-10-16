@@ -5,4 +5,6 @@ export default {
 	'--lightBlue': '#81C0C6',
 	'--mediumBlue': '#01828F',
 	'--blackBlue': '#004B62',
+	'--fontPrimary': `'Montserrat', sans-serif`,
+	'--fontNarrow': `'Lato', sans-serif`,
 };
