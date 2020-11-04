@@ -32,6 +32,12 @@ const ProjectCard: React.FC<ProjectCardProperty> = ({ data, className }) => {
 	return (
 		<div className={classNames(style.card, className)}>
 			<div className={style.cover}>
+				<div className={style.overlay}>
+					<div className={style['overlay-button']}>
+						<div className={style['overlay-button-text']}>去瞧瞧</div>
+						<div className={style['overlay-button-base']}> </div>
+					</div>
+				</div>
 				<img src={data.cover} alt={data.title} />
 			</div>
 			<div className={style.title}>{data.title}</div>
