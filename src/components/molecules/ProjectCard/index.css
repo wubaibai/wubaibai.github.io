@@ -23,6 +23,7 @@
 		background: rgba(0, 75, 98, 0.8);
 		transition: all 0.3s;
 		opacity: 0;
+		z-index: 2;
 
 		& > .overlay-button {
 			display: flex;
@@ -43,6 +44,7 @@
 			& > .overlay-button-text {
 				background: var(--acent);
 				z-index: 2;
+				color: white;
 			}
 
 			& > .overlay-button-base {
@@ -56,6 +58,9 @@
 
 	& > img {
 		width: 100%;
+		opacity: 1;
+		transition: opacity 0.3s;
+		z-index: 1;
 	}
 
 	&:hover {
@@ -65,6 +70,10 @@
 			& > .overlay-button {
 				transform: translateX(0);
 			}
+		}
+
+		& > img {
+			opacity: 0.6;
 		}
 	}
 }

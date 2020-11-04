@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import classNames from 'classnames';
 
@@ -11,6 +12,7 @@ interface ProjectProperty {
 	description?: string;
 	cover: string;
 	tags: string[];
+	link?: string;
 }
 
 interface ProjectCardProperty {
@@ -32,12 +34,14 @@ const ProjectCard: React.FC<ProjectCardProperty> = ({ data, className }) => {
 	return (
 		<div className={classNames(style.card, className)}>
 			<div className={style.cover}>
-				<div className={style.overlay}>
-					<div className={style['overlay-button']}>
-						<div className={style['overlay-button-text']}>去瞧瞧</div>
-						<div className={style['overlay-button-base']}> </div>
+				{data.link && (
+					<div className={style.overlay}>
+						<a className={style['overlay-button']} href={data.link} target="_blank">
+							<div className={style['overlay-button-text']}>去瞧瞧</div>
+							<div className={style['overlay-button-base']}> </div>
+						</a>
 					</div>
-				</div>
+				)}
 				<img src={data.cover} alt={data.title} />
 			</div>
 			<div className={style.title}>{data.title}</div>
