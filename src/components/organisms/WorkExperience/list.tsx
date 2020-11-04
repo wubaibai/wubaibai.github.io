@@ -40,7 +40,7 @@ export const labProjects = [
 		tags: ['Google Login', 'full-stack', 'design'],
 	},
 	{
-		cover: coverLabSlt,
+		cover: coverLabVacation,
 		title: 'Vacation System',
 		description:
 			'建立一個公司內部使用的請假系統，自動計算對應年資年假，並串接 Google Calendar 自動加上請假事件，也方便公司年末結算剩餘假期。',
@@ -53,7 +53,7 @@ export const labProjects = [
 		tags: ['Google Login', 'full-stack', 'design'],
 	},
 	{
-		cover: coverLabVacation,
+		cover: coverLabSlt,
 		title: 'SLT System',
 		description:
 			'將網站需要翻譯的文字匯入網站後，可直接在界面上編輯各個語言翻譯，也可以匯出檔案供翻譯社使用。',
