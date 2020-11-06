@@ -40,7 +40,7 @@ export const labProjects = [
 		title: 'Avatar System',
 		description:
 			'建立一個公司內部使用的人資系統，建立新人 on-board 的申請流程。並提供 API 供公司各大系統串接人員清單。',
-		tags: ['Google Login', 'full-stack', 'design'],
+		tags: ['Google Login', 'full stack', 'design'],
 		link: undefined,
 	},
 	{
@@ -48,14 +48,14 @@ export const labProjects = [
 		title: 'Vacation System',
 		description:
 			'建立一個公司內部使用的請假系統，自動計算對應年資年假，並串接 Google Calendar 自動加上請假事件，也方便公司年末結算剩餘假期。',
-		tags: ['Google Login', 'full-stack', 'design'],
+		tags: ['Google Login', 'full stack', 'design'],
 		link: undefined,
 	},
 	{
 		cover: coverLabWishpool,
 		title: 'Wishpool System',
 		description: '建立一個公司內部使用的尾牙禮物許願系統，連續三年不斷優化改版。',
-		tags: ['Google Login', 'full-stack', 'design'],
+		tags: ['Google Login', 'full stack', 'design'],
 		link: undefined,
 	},
 	{
@@ -63,14 +63,14 @@ export const labProjects = [
 		title: 'SLT System',
 		description:
 			'將網站需要翻譯的文字匯入網站後，可直接在界面上編輯各個語言翻譯，也可以匯出檔案供翻譯社使用。',
-		tags: ['Google Login', 'full-stack', 'design'],
+		tags: ['Google Login', 'full stack', 'design'],
 		link: undefined,
 	},
 	{
 		cover: coverLabUiProposal,
 		title: 'UI Proposal Online',
 		description: '在還沒有 Zeplin 的年代，建立一個內部使用的提案 UI 統整網站。',
-		tags: ['full-stack', 'design'],
+		tags: ['full stack', 'design'],
 		link: undefined,
 	},
 ];
@@ -81,14 +81,14 @@ export const websiteProjects = [
 		title: '天下文化官網',
 		description: '',
 		tags: ['front-end', 'design'],
-		link: 'https://bookzone.cwgv.com.tw/',
+		link: 'https://www.behance.net/gallery/107346195/CWGV-Website-Design',
 	},
 	{
 		cover: coverWebsiteLetzcreate,
 		title: '愛藝享官網',
 		description: '',
 		tags: ['shpping car', 'front-end', 'design'],
-		link: undefined,
+		link: 'https://www.behance.net/gallery/107345771/LETs-CREATE-Website-Design',
 	},
 ];
 

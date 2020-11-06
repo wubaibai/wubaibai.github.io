@@ -25,7 +25,8 @@ const projects = [
 		title: 'Keep In / Android 密碼管理工具',
 		description: '對於每次產生密碼、記憶密碼的流程工具感到不方便，於是與先生一起製作一個密碼 APP。',
 		tags: ['design', 'pm'],
-		link: undefined,
+		link:
+			'https://www.behance.net/gallery/107355953/KeepIn-Service-Accounts-management-Android-APP',
 	},
 	{
 		cover: coverKKQuiz,
@@ -33,7 +34,7 @@ const projects = [
 		description:
 			'參加 KKBOX 的 open api 創作活動，輸入一個歌手的名字，會隨間播放該歌手的歌數秒鐘，玩猜歌名的遊戲。',
 		tags: ['design', 'pm'],
-		link: undefined,
+		link: 'https://www.behance.net/gallery/107346851/KK-QUIZ-Music-Quiz-Android-APP',
 	},
 ];
 
