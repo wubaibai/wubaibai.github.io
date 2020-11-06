@@ -36,9 +36,11 @@ const ProjectCard: React.FC<ProjectCardProperty> = ({ data, className }) => {
 			<div className={style.cover}>
 				{data.link && (
 					<div className={style.overlay}>
-						<a className={style['overlay-button']} href={data.link} target="_blank">
-							<div className={style['overlay-button-text']}>去瞧瞧</div>
-							<div className={style['overlay-button-base']}> </div>
+						<a className={style['overlay-link']} href={data.link} target="_blank">
+							<div className={style['overlay-button']}>
+								<div className={style['overlay-button-text']}>去瞧瞧</div>
+								<div className={style['overlay-button-base']}> </div>
+							</div>
 						</a>
 					</div>
 				)}
