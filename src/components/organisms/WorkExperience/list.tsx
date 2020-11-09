@@ -1,6 +1,9 @@
 import coverSurveycakeAdmin from 'images/cover/surveycake-admin.png';
 import coverSurveycakeLogicEngine from 'images/cover/surveycake-logic-engine.png';
 import coverSurveycakeWebsite from 'images/cover/surveycake-website.png';
+import coverSurveycakeSlackbot from 'images/cover/surveycake-slackbot.png';
+import coverSurveycakeCisGenerator from 'images/cover/surveycake-cis-generator.png';
+import coverSurveycakeWebhookanswerPreview from 'images/cover/surveycake-webhook-answer-preview.png';
 import coverLabAvatar from 'images/cover/lab-avatar.png';
 import coverLabSlt from 'images/cover/lab-slt.png';
 import coverLabUiProposal from 'images/cover/lab-ui-proposal.png';
@@ -15,22 +18,46 @@ export const surveycakeProjects = [
 		title: '填答頁面 & Logic Engine',
 		description:
 			'將原先問卷填答頁面的答題邏輯抽獨立出來，建置 login-engine npm 套件供其他專案引入。',
-		tags: ['confidential', 'redux', 'front-end', 'TDD'],
+		tags: ['redux', 'front-end', 'TDD'],
 		link: undefined,
 	},
 	{
 		cover: coverSurveycakeAdmin,
-		title: 'SurveyCake 問卷管理後台',
+		title: '問卷管理後台',
 		description: '從 0 開始打造第一版的 SureyCake 問卷後台，包含訂閱金流、資料分析、圖表呈現。',
 		tags: ['pug', 'front-end', 'design'],
 		link: 'https://www.behance.net/gallery/107232459/SurveyCake-Admin-Design-Web-Development',
 	},
 	{
 		cover: coverSurveycakeWebsite,
-		title: 'SurveyCake 官方網站',
+		title: '官方網站',
 		description: '設計與開發現有 SurveyCake 官方網站，串接導購流程，供使用者訂閱服務。',
 		tags: ['pug', 'front-end', 'design'],
 		link: 'https://www.surveycake.com/',
+	},
+	{
+		cover: coverSurveycakeSlackbot,
+		title: 'Slack bot for product development',
+		description:
+			'Integration Slack Slash command with Gitlab repository and pipeline. Unify several commands of the product development process, such as search documents, reveal single enterprise modules, and trigger Gitlab Pipeline to deploy an enterprise.',
+		tags: ['node.js', 'pm2'],
+		link: undefined,
+	},
+	{
+		cover: coverSurveycakeCisGenerator,
+		title: 'Enterprise theme & logo generator',
+		description:
+			'Using Gitlab page to create SurveyCake enterprise theme cover image and CSS modules palettes config. Help Sales, CS, and BD deploy a new enterprise environment automatically.',
+		tags: ['pug', 'front-end'],
+		link: undefined,
+	},
+	{
+		cover: coverSurveycakeWebhookanswerPreview,
+		title: 'Webhook answer preview',
+		description:
+			'Using Github page to host webhook answer preview tool. Help PM, CS, end-user can check the webhook answer without backend engineer help.',
+		tags: ['pug', 'front-end'],
+		link: undefined,
 	},
 ];
 
