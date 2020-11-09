@@ -94,6 +94,7 @@ const webpackProdConfig = {
 			showErrors: false,
 			filename: 'index.html',
 			chunksSortMode: 'dependency',
+			favicon: './src/images/icon/logo.inline.svg',
 		}),
 
 		new MiniCssExtractPlugin({

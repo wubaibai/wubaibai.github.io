@@ -31,6 +31,7 @@ export default {
 		new HtmlWebpackPlugin({
 			template: './src/index.html',
 			chunksSortMode: 'dependency',
+			favicon: './src/images/icon/logo.inline.svg',
 		}),
 	],
 	optimization: {
