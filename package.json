@@ -36,7 +36,8 @@
     "commit": "git-cz",
     "release": "standard-version",
     "format": "prettier --config ./.prettierrc --write \"./{,**/}/*.{js,css,json}\"",
-    "component:create": "babel-node commands/component/create"
+    "component:create": "babel-node commands/component/create",
+    "deploy": "node gh-pages.js"
   },
   "engines": {
     "node": ">=10"
@@ -113,6 +114,7 @@
     "eslint-plugin-react-hooks": "^2.4.0",
     "express": "^4.17.1",
     "file-loader": "^5.1.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^3.2.0",
     "http-proxy": "^1.18.0",
     "identity-obj-proxy": "^3.0.0",
