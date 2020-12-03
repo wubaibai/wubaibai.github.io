@@ -17,7 +17,7 @@ const projects = [
 		title: 'BeiBei Japan / Youtube 日語筆記',
 		description:
 			'有一陣子很喜歡看 Youtube 影片學習日語，所以做了一個影片的筆記工具，可以確切紀錄句子的時間點，也嘗試用前端排版日文標音。',
-		tags: ['react', 'android', 'firebase', 'youtube'],
+		tags: ['pug', 'android', 'firebase', 'youtube'],
 		link: 'https://wubaibai.github.io/beibeijapan/',
 	},
 	{
