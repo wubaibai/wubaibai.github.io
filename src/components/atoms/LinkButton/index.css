@@ -1,5 +1,6 @@
 .button {
-	background: var(--acent);
+	display: inline-block;
+	background: var(--mediumBlue);
 	font-family: var(--fontNarrow);
 	border: none;
 	color: white;
@@ -8,6 +9,11 @@
 	font-weight: 500;
 	line-height: 1;
 	border-radius: 100px;
-	display: inline-block;
 	text-decoration: none;
+	box-shadow: #dedede 0 1px 3px;
+	transition: background 0.1s;
+
+	&:hover {
+		background: var(--acent);
+	}
 }
