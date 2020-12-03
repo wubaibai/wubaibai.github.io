@@ -11,7 +11,7 @@ interface TagsProperty {
 const Tags: React.FC<TagsProperty> = ({ items }) => (
 	<div className={style.tags}>
 		{items.map(item => (
-			<Tag>{item}</Tag>
+			<Tag key={item}>{item}</Tag>
 		))}
 	</div>
 );

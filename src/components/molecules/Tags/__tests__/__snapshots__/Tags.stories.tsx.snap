@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`__interactive 1`] = `
+<DocumentFragment>
+  <div
+    class="tags"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="text"
+      >
+        Node.js
+      </div>
+      <div
+        class="base"
+      />
+    </div>
+    <div
+      class="tag"
+    >
+      <div
+        class="text"
+      >
+        HTML5
+      </div>
+      <div
+        class="base"
+      />
+    </div>
+    <div
+      class="tag"
+    >
+      <div
+        class="text"
+      >
+        CSS3
+      </div>
+      <div
+        class="base"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
