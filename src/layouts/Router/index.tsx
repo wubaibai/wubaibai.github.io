@@ -3,12 +3,11 @@ import { History } from 'history';
 import { Store } from 'redux';
 
 import App from 'layouts/App';
+import Loading from 'components/molecules/Loading';
 
 import { HistoryContext } from 'models/routing';
 
 import useRouter, { CustomRoute } from 'util/hook/useRouter';
-
-const Loading: React.FC = () => <div>Loading...</div>;
 
 interface RouterProperty {
 	routes: CustomRoute;

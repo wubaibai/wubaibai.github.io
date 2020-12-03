@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`__interactive 1`] = `
+<DocumentFragment>
+  <div
+    class="loading"
+  >
+    <div
+      class="logo"
+      id="logo"
+    >
+      <div
+        class="up"
+      />
+      <div
+        class="down"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
