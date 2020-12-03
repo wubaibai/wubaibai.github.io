@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`__interactive 1`] = `
+<DocumentFragment>
+  <div
+    class="hero"
+    id="hero"
+  >
+    <div
+      class="hi"
+      id="hi"
+    >
+      嗨！我是凱西，
+    </div>
+    <div>
+      A Front-end Developer
+    </div>
+  </div>
+</DocumentFragment>
+`;

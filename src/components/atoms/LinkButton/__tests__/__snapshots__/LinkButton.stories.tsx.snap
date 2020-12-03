@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`__interactive 1`] = `
+<DocumentFragment>
+  <a
+    class="button"
+    role="button"
+    target="_blank"
+  >
+    查看履歷
+  </a>
+</DocumentFragment>
+`;

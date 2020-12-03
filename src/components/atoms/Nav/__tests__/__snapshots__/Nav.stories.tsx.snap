@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`__interactive 1`] = `
+<DocumentFragment>
+  <a
+    class="nav"
+    role="button"
+    tabindex="0"
+  >
+    ABOUT
+  </a>
+</DocumentFragment>
+`;
