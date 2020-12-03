@@ -37,6 +37,7 @@
     "release": "standard-version",
     "format": "prettier --config ./.prettierrc --write \"./{,**/}/*.{js,css,json}\"",
     "component:create": "babel-node commands/component/create",
+    "predeploy": "yarn run build",
     "deploy": "node gh-pages.js"
   },
   "engines": {
