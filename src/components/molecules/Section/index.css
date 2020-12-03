@@ -6,3 +6,23 @@
 		margin: 0 auto;
 	}
 }
+
+@media (--mobile) {
+	.section {
+		& > div {
+			max-width: 100%;
+			width: auto;
+			margin-right: 40px;
+			margin-left: 40px;
+		}
+	}
+}
+
+@media (--phone) {
+	.section {
+		& > div {
+			margin-right: 20px;
+			margin-left: 20px;
+		}
+	}
+}

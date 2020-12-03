@@ -8,7 +8,7 @@ interface SectionProperty {
 }
 
 const Section: React.FC<SectionProperty> = ({ children, className }) => (
-	<section className={classNames(style.section, className)}>
+	<section className={classNames(className, style.section)}>
 		<div>{children}</div>
 	</section>
 );
