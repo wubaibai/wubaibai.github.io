@@ -114,7 +114,7 @@ export const websiteProjects = [
 		cover: coverWebsiteLetzcreate,
 		title: '愛藝享官網',
 		description: '',
-		tags: ['shpping car', 'front-end', 'design'],
+		tags: ['shopping car', 'front-end', 'design'],
 		link: 'https://www.behance.net/gallery/107345771/LETs-CREATE-Website-Design',
 	},
 ];
