@@ -6,7 +6,7 @@ exports[`__interactive 1`] = `
     class="loading"
   >
     <div
-      class="logo"
+      class="logo animate"
       id="logo"
     >
       <div

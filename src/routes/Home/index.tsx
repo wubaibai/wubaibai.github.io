@@ -18,7 +18,7 @@ const Home: React.FC = () => (
 		<SideProject />
 		<WorkExperience />
 		<div className={style.footer}>
-			<Logo />
+			<Logo animate />
 		</div>
 	</div>
 );

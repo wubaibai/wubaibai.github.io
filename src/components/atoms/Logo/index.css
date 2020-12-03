@@ -1,13 +1,44 @@
-.logo {
-	padding-right: 20px;
-	margin-right: 40px;
+@keyframes swing-a {
+	0% {
+		transform: translateX(0);
+	}
 
-	& > div {
-		width: 64px;
-		height: 34px;
-		border-radius: 100px;
-		display: block;
-		position: relative;
+	25% {
+		transform: translateX(-4px);
+	}
+
+	50% {
+		transform: translateX(0);
+	}
+
+	75% {
+		transform: translateX(3px);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes swing-b {
+	0% {
+		transform: translateX(0);
+	}
+
+	25% {
+		transform: translateX(-2px);
+	}
+
+	50% {
+		transform: translateX(0);
+	}
+
+	75% {
+		transform: translateX(2px);
+	}
+
+	100% {
+		transform: translateX(0);
 	}
 }
 
@@ -21,4 +52,33 @@
 	z-index: 1;
 	margin-left: 25px;
 	margin-top: -20px;
+}
+
+.logo {
+	padding-right: 20px;
+	margin-right: 40px;
+
+	& > div {
+		display: block;
+		width: 64px;
+		height: 34px;
+		border-radius: 100px;
+		position: relative;
+	}
+
+	&.animate {
+		& > div {
+			animation-duration: 1.6s;
+			animation-iteration-count: infinite;
+			animation-timing-function: ease-in;
+		}
+
+		& > .up {
+			animation-name: swing-a;
+		}
+
+		& > .down {
+			animation-name: swing-b;
+		}
+	}
 }
