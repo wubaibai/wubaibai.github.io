@@ -5,21 +5,38 @@ import { History } from 'history';
 
 import style from './index.css';
 
-const onClickHandler = (callback: (e: MouseEvent<HTMLAnchorElement>) => void, history: History) => {
+const onClickHandler = (callback: (e: MouseEvent<HTMLAnchorElement>) => void, history: History, section?: string) => {
 	return (e: MouseEvent<HTMLAnchorElement>): void => {
 		e.preventDefault();
-		history.push(e.currentTarget.pathname);
+		history.push({
+			pathname: e.currentTarget.pathname,
+			hash: section,
+		});
 		callback(e);
+
+		if (!section) {
+			return;
+		}
+
+		const top = document.getElementById(section)?.offsetTop;
+		if (top) {
+			document.documentElement.scrollTo({
+				top,
+				left: 0,
+				behavior: 'smooth',
+			});
+		}
 	};
 };
 
-interface LinkProperty {
+interface NavProperty {
 	to?: string;
+	section?: string;
 	onClick?: (e: MouseEvent<HTMLAnchorElement>) => void;
 	children: React.ReactChildren | string;
 }
 
-const Link: React.FC<LinkProperty> = ({ to, onClick = () => {}, children }) => {
+const Nav: React.FC<NavProperty> = ({ to, section, onClick = () => {}, children }) => {
 	const history = useHistory();
 
 	return (
@@ -28,7 +45,7 @@ const Link: React.FC<LinkProperty> = ({ to, onClick = () => {}, children }) => {
 			href={to}
 			role="button"
 			tabIndex={0}
-			onClick={onClickHandler(onClick, history)}
+			onClick={onClickHandler(onClick, history, section)}
 			onKeyPress={() => {}}
 		>
 			{children}
@@ -36,4 +53,4 @@ const Link: React.FC<LinkProperty> = ({ to, onClick = () => {}, children }) => {
 	);
 };
 
-export default Link;
+export default Nav;

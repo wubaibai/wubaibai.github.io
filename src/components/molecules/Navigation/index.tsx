@@ -7,16 +7,16 @@ const Navigator: React.FC = () => (
 	<nav className={style.navigation}>
 		<ul>
 			<li>
-				<Nav>ABOUT</Nav>
+				<Nav to="#about" section="about">ABOUT</Nav>
 			</li>
 			<li>
-				<Nav>SKILL</Nav>
+				<Nav to="#skill" section="skill">SKILL</Nav>
 			</li>
 			<li>
-				<Nav>SIDE-PROJECT</Nav>
+				<Nav to="#side-project" section="side-project">SIDE-PROJECT</Nav>
 			</li>
 			<li>
-				<Nav>WORK EXPERIENCE</Nav>
+				<Nav to="#work-experience" section="work-experience">WORK EXPERIENCE</Nav>
 			</li>
 		</ul>
 	</nav>

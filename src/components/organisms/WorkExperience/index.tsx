@@ -10,7 +10,7 @@ import style from './index.css';
 import { surveycakeProjects, labProjects, websiteProjects } from './list';
 
 const WorkExperience: React.FC = () => (
-	<Section className={style.section}>
+	<Section id="work-experience" className={style.section}>
 		<div className={style.workExperience}>
 			<div className={style.header}>
 				<Dots count={2} />

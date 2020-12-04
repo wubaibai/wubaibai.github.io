@@ -5,10 +5,11 @@ import style from './index.css';
 
 interface SectionProperty {
 	className?: string;
+	id?: string;
 }
 
-const Section: React.FC<SectionProperty> = ({ children, className }) => (
-	<section className={classNames(className, style.section)}>
+const Section: React.FC<SectionProperty> = ({ id, children, className }) => (
+	<section id={id} className={classNames(className, style.section)}>
 		<div>{children}</div>
 	</section>
 );

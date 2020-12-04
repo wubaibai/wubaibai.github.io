@@ -12,7 +12,7 @@ import MediumIcon from 'images/icon/medium.inline.svg';
 import style from './index.css';
 
 const About: React.FC = () => (
-	<Section>
+	<Section id="about">
 		<div className={style.about}>
 			<div className={style.aside}>
 				<Title className={style.title}>ABOUT ME</Title>

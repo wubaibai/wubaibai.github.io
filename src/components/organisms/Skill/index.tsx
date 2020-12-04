@@ -37,7 +37,7 @@ const experience = [
 ];
 
 const Skill: React.FC = () => (
-	<Section className={style.section}>
+	<Section id="skill" className={style.section}>
 		<div className={style.skill}>
 			<div className={style.tech}>
 				<div className={style.techBlock}>

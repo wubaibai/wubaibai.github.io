@@ -9,7 +9,7 @@ import style from './index.css';
 import list from './list';
 
 const SideProject: React.FC = () => (
-	<Section className={style.section}>
+	<Section id="side-project" className={style.section}>
 		<div className={style.sideProject}>
 			<div>
 				<Title className={style.title}>SIDE-PROJECT</Title>
