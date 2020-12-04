@@ -29,7 +29,7 @@ addParameters({
 		hierarchyRootSeparator: /\|/,
 	},
 	backgrounds: [
-		{ name: 'light', value: themes.light.appBg, default: true },
+		{ name: 'light', value: themes.light.appBg, default: false },
 		{ name: 'dark', value: themes.dark.appBg, default: true },
 	],
 });
