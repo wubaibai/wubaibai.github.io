@@ -6,3 +6,5 @@ import Logo from 'components/atoms/Logo';
 const stories = storiesOf('atoms/Logo', module);
 
 stories.add('__interactive', () => <Logo />, { jest: 'Logo' });
+
+stories.add('__animate', () => <Logo animate />, { jest: 'Logo Animate' });
