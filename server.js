@@ -5,8 +5,9 @@ import webpack from 'webpack';
 import express from 'express';
 import history from 'connect-history-api-fallback';
 import httpProxy from 'http-proxy';
+import ip from 'ip';
 
-import { HOST_MAP } from './config/endpoint';
+import { API_ENDPOINT, SELF_HOST_ENDPOINT, HOST_MAP, API_PORT, HOST_PORT } from './config/endpoint';
 
 import config from './webpack.config';
 
@@ -46,12 +47,13 @@ app.listen(3000, err => {
 	proxyServer.on('proxyRes', proxyRes => {
 		proxyRes.headers['Access-Control-Allow-Headers'] = 'content-type, authorization';
 		proxyRes.headers['Access-Control-Allow-Methods'] = 'PUT, POST, GET, DELETE';
-		proxyRes.headers['Access-Control-Allow-Origin'] = 'http://localhost:3000';
+		proxyRes.headers['Access-Control-Allow-Origin'] = SELF_HOST_ENDPOINT;
 	});
 
-	console.log(`Proxy ${process.env.PROXY} server ${host} start at localhost:9000`);
+	proxyServer.listen(API_PORT);
 
-	proxyServer.listen(9000);
+	console.log('\x1b[36m%s\x1b[0m', `Proxy server started at ${API_ENDPOINT}`);
+	console.log('\x1b[36m%s\x1b[0m', `Tunnel started at http://${ip.address()}:${HOST_PORT}`);
 
-	return console.log('Listening at http://localhost:3000/');
+	return console.log('\x1b[36m%s\x1b[0m', `Local server started at ${SELF_HOST_ENDPOINT}`);
 });

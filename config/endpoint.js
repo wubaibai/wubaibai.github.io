@@ -1,11 +1,14 @@
+export const API_PORT = 9000;
+export const HOST_PORT = 3000;
+
 export const HOST_MAP = {
-	dev: 'http://localhost:9000',
-	demo: 'http://lab.25sprout.com',
-	production: 'http://lab.25sprout.com',
+	dev: `http://localhost:${API_PORT}`,
+	demo: 'https://wubaibai.github.io',
+	production: 'https://wubaibai.github.io',
 };
 
 const SELF_HOST_MAP = {
-	dev: 'http://localhost:3000',
+	dev: `http://localhost:${HOST_PORT}`,
 	demo: '',
 	production: '',
 };
