@@ -6,3 +6,10 @@
 	line-height: 1.2;
 	margin-top: 120px;
 }
+
+@media (--mobile) {
+	.hero {
+		margin-top: 60px;
+		font-size: 1.6rem;
+	}
+}

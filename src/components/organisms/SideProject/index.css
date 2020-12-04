@@ -1,25 +1,49 @@
 .section {
-    background-color: var(--mediumBlue);
+	background-color: var(--mediumBlue);
 }
 
 .sideProject {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: stretch;
-    margin-bottom: -60px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	margin-bottom: -60px;
 
-    & > * {
-        min-width: 360px;
-        width: 31%;
-        margin-bottom: 90px;
-    }
+	& > * {
+		min-width: 360px;
+		width: 31%;
+		margin-bottom: 90px;
+	}
 }
 
 .title {
-    color: var(--lightBlue);
+	color: var(--lightBlue);
 }
 
 .dots {
-    margin-top: 20px;
+	margin-top: 20px;
+}
+
+@media (--mobile) {
+	.sideProject {
+		& > * {
+			min-width: 0;
+		}
+	}
+}
+
+@media (--tablet) {
+	.sideProject {
+		& > * {
+			width: 48%;
+		}
+	}
+}
+
+@media (--phone) {
+	.sideProject {
+		& > * {
+			width: 100%;
+		}
+	}
 }

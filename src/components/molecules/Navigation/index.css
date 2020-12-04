@@ -1,12 +1,27 @@
 .navigation {
 	& ul {
-		list-style-type: none;
 		display: inline-flex;
+		list-style-type: none;
 		margin: 0;
 		padding: 0;
 
 		& li {
 			margin-right: 30px;
+		}
+	}
+}
+
+@media (--phone) {
+	.navigation {
+		& ul {
+			flex-direction: column;
+
+			& li {
+				width: 100%;
+				margin-right: 0;
+				text-align: center;
+				padding: 15px 0;
+			}
 		}
 	}
 }

@@ -5,3 +5,9 @@
 	line-height: 1.2;
 	text-transform: uppercase;
 }
+
+@media (--phone) {
+	.title {
+		font-size: 2rem;
+	}
+}

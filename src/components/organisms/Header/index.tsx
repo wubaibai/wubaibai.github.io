@@ -7,7 +7,7 @@ import styles from './index.css';
 
 const Header: React.FC = () => (
 	<header className={styles.header}>
-		<Logo />
+		<Logo className={styles.logo} />
 		<Navigation />
 	</header>
 );

@@ -50,7 +50,7 @@ const About: React.FC = () => (
 					的經驗，對前端頁面的細節更加細心，在擔任前端工程師時找到自己的工作熱忱，工作之餘也喜歡寫程式解決自己生活上的問題。
 				</p>
 				<p>稱不上天才型的開發者，但是一個樂於嘗試的開發者，更多的工作經歷請見履歷。</p>
-				<LinkButton to="https://www.cakeresume.com/s--BrYFaP4gz0SmVZCToQlrrw--/peichen-wu-resume-portfolio">
+				<LinkButton className={style.linkButton} to="https://www.cakeresume.com/s--BrYFaP4gz0SmVZCToQlrrw--/peichen-wu-resume-portfolio">
 					查看履歷
 				</LinkButton>
 			</div>

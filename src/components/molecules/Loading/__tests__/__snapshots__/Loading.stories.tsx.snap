@@ -7,7 +7,6 @@ exports[`__interactive 1`] = `
   >
     <div
       class="logo animate"
-      id="logo"
     >
       <div
         class="up"

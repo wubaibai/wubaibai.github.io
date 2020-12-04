@@ -1,53 +1,63 @@
 .section {
-    background-color: var(--acent);
+	background-color: var(--acent);
 }
 
 .skill {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	color: white;
 }
 
 .gap {
-    width: 40px;
+	width: 40px;
 }
 
 .tech {
-    flex: 3;
+	flex: 3;
 
-    & .techBlock:first-child {
-        margin-bottom: 60px;
-    }
+	& .techBlock:first-child {
+		margin-bottom: 60px;
+	}
 }
 
 .intro {
-    flex: 2;
-    font-family: var(--fontNarrow);
+	flex: 2;
+	font-family: var(--fontNarrow);
 
-    & .introTitle {
-        display: flex;
-        align-items: center;
+	& .introTitle {
+		display: flex;
+		align-items: center;
 
-        & .title {
-            margin-right: 20px;
-        }
-    }
+		& .title {
+			margin-right: 20px;
+		}
+	}
 
-    & ul {
-        list-style-type: none;
-        padding-left: 22px;
-    }
+	& ul {
+		list-style-type: none;
+		padding-left: 22px;
+	}
 
-    & li {
-        font-size: 20px;
-        line-height: 1.5;
+	& li {
+		font-size: 20px;
+		line-height: 1.5;
 
-        &::before {
-            content: '#';
-            width: 20px;
-            margin-right: 10px;
-            margin-left: -22px;
-        }
-    }
+		&::before {
+			content: '#';
+			width: 20px;
+			margin-right: 10px;
+			margin-left: -22px;
+		}
+	}
+}
+
+@media (--mobile) {
+	.skill {
+		flex-direction: column-reverse;
+
+		& .intro {
+			margin-bottom: 30px;
+		}
+	}
 }

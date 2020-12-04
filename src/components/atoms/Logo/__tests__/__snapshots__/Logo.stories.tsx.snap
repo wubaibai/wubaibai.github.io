@@ -1,10 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`__animate 1`] = `
+<DocumentFragment>
+  <div
+    class="logo animate"
+  >
+    <div
+      class="up"
+    />
+    <div
+      class="down"
+    />
+  </div>
+</DocumentFragment>
+`;
+
 exports[`__interactive 1`] = `
 <DocumentFragment>
   <div
     class="logo"
-    id="logo"
   >
     <div
       class="up"

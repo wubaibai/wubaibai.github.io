@@ -20,6 +20,8 @@
 
 @media (--phone) {
 	.section {
+		padding: 60px 0;
+
 		& > div {
 			margin-right: 20px;
 			margin-left: 20px;

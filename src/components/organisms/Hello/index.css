@@ -1,14 +1,26 @@
 .hello {
-    background-color: var(--blackBlue);
-    padding-bottom: 0;
+	background-color: var(--blackBlue);
+	padding-bottom: 0;
 }
 
 .face {
-    display: flex;
-    justify-content:flex-end;
-    margin-top: -240px;
+	display: flex;
+	justify-content: flex-end;
 
-    & svg {
-        margin-bottom: -40px;
-    }
+	& svg {
+		margin-bottom: -40px;
+		height: auto;
+	}
+}
+
+@media (--desktop) {
+	.face {
+		margin-top: -240px;
+	}
+}
+
+@media (--mobile) {
+	.face {
+		margin-top: 0;
+	}
 }
