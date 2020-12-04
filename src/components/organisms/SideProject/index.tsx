@@ -18,7 +18,7 @@ const SideProject: React.FC = () => (
 				</div>
 			</div>
 			{list.map(project => (
-				<div>
+				<div key={project.title}>
 					<ProjectCard data={project} />
 				</div>
 			))}

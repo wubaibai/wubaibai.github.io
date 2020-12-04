@@ -21,7 +21,7 @@ const WorkExperience: React.FC = () => (
 				<SubTitle className={style.subTitle}>SurveyCake Product Development</SubTitle>
 				<div className={style.projectCards}>
 					{surveycakeProjects.map(project => (
-						<div>
+						<div key={project.title}>
 							<ProjectCard data={project} />
 						</div>
 					))}
@@ -31,7 +31,7 @@ const WorkExperience: React.FC = () => (
 				<SubTitle className={style.subTitle}>Internal System</SubTitle>
 				<div className={style.projectCards}>
 					{labProjects.map(project => (
-						<div>
+						<div key={project.title}>
 							<ProjectCard data={project} />
 						</div>
 					))}
@@ -42,7 +42,7 @@ const WorkExperience: React.FC = () => (
 				<SubTitle className={style.subTitle}>Official Website Project</SubTitle>
 				<div className={style.projectCards}>
 					{websiteProjects.map(project => (
-						<div>
+						<div key={project.title}>
 							<ProjectCard data={project} />
 						</div>
 					))}
