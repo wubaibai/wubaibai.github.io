@@ -12,7 +12,7 @@ const Hello: React.FC = () => (
 			<div>A</div>
 			<Typing list={[
 				'Front-end Developer',
-				'Project Manager',
+				'Development Manager',
 				'Scrum Master',
 			]} />
 		</div>

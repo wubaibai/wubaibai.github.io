@@ -7,6 +7,6 @@ const stories = storiesOf('atoms/Typing', module);
 
 stories.add('__interactive', () => (<Typing list={[
     'Front-end Developer',
-    'Project Manager',
+    'Development Manager',
     'Scrum Master',
 ]} />), { jest: 'Typing' });
