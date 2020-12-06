@@ -12,8 +12,18 @@ exports[`__interactive 1`] = `
     >
       嗨！我是凱西，
     </div>
-    <div>
-      A Front-end Developer
+    <div
+      class="job"
+    >
+      <div>
+        A
+      </div>
+      <div>
+        <span />
+        <span
+          class="cursor"
+        />
+      </div>
     </div>
   </div>
 </DocumentFragment>
